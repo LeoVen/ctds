@@ -1,0 +1,10 @@
+#ifndef CTDS_TAGS_H
+#define CTDS_TAGS_H
+
+#include <stdint.h>
+
+const uint64_t CTDS_TAG_VECTOR = 0b0000000000000000000001;
+const uint64_t CTDS_TAG_LIST   = 0b0000000000000000000010;
+const uint64_t CTDS_TAG_STACK  = 0b0000000000000000000100;
+
+#endif // !CTDS_TAGS_H
